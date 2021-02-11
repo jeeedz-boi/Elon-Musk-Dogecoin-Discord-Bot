@@ -1,0 +1,2 @@
+snscrape==0.3.4
+discord.py==1.6.0
