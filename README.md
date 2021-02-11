@@ -6,4 +6,4 @@ bot using [snscrape](https://github.com/JustAnotherArchivist/snscrape) and [disc
 
 suppose to be joke but since [snscrape](https://github.com/JustAnotherArchivist/snscrape) using GPL3.0 License I have to use it too. 
 
-special for [Elon Musk](https://twitter.com/elonmusk)
+a special thank you to [Elon Musk](https://twitter.com/elonmusk).
