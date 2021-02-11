@@ -11,7 +11,9 @@ client = discord.Client()
 async def on_ready():
     exist_tweet_id = []
     print('We have logged in as {0.user}'.format(client))
-    await client.guilds[0].text_channels[0].send("Hi I'm Elon Musk Dogecoin bot back to ready state now!")
+    
+    for guild in client.guilds:
+        await guild.text_channels[0].send("Hi I'm Elon Musk Dogecoin bot back to ready state now!")
     
     while(True):
         print("Checking Elon Musk Tweet!")
