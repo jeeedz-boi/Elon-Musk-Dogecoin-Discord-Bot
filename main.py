@@ -2,8 +2,9 @@ import discord
 import time
 from snscrape.modules.twitter import TwitterSearchScraper
 from datetime import date, timedelta
+import envVariable as env
 
-TOKEN = "BOT_TOKEN_HERE"
+TOKEN = env.TOKEN
 
 client = discord.Client()
 
